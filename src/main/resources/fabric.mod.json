@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "A Fishing Macro for Hypixel SkyBlock.",
+  "authors": [
+    "Taikalup"
+  ],
+  "contact": {
+    "homepage": "https://github.com/taikalup/Fishinger"
+  },
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "dev.taikalup.fishinger.Main"
+    ]
+  },
+  "mixins": [],
+  "accessWidener": "template.ct",
+  "depends": {
+    "fabricloader": ">=${loader}",
+    "minecraft": "${minecraft}"
+  }
+}
